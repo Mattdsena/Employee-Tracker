@@ -67,3 +67,11 @@ const connection = mysql.createConnection({
         mainMenu();
     });
 }
+
+function viewAllRoles () {
+    connection.query("SELECT r.id, r.title, d.name AS department, r.salary FROM department d LEFT JOIN role r ON d.id = department_id", function (err, res) {
+        if (err) throw err;
+        console.table(res);
+        mainMenu();
+    });
+  }
