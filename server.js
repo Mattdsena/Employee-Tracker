@@ -59,3 +59,11 @@ const connection = mysql.createConnection({
       }
     });
   }
+
+  function viewAllDepartments () {
+    connection.query("SELECT * FROM employees_db.department", function (err, res) {
+        if (err) throw err;
+        console.table(res);
+        mainMenu();
+    });
+}
