@@ -83,3 +83,20 @@ function viewAllRoles () {
         mainMenu();
     });
   }
+  function addDepartment() {
+    inquirer
+    .prompt({
+      type: 'input',
+      name: 'proptDepartment',
+      message: 'What is the name of the department?',
+    })
+    .then(answer => {
+      var query = connection.query(
+          "INSERT INTO department (name) VALUES (?)", answer.proptDepartment, (err) => {
+              if (err) throw err;
+              console.log("Added " + answer.proptDepartment + " to the database");
+              mainMenu();
+          }
+      )
+  })
+  }
