@@ -45,23 +45,23 @@ The following video shows an example of the application being used from the comm
 
 Below are a few screenshots of my departments, employees and roles as per the seeds.sql data
 
-<img src="./img/View-Departments">
-<img src="./img/View-Employees">
-<img src="./img/View-Roles">
+<img src="./img/View-Departments.jpg">
+<img src="./img/View-Employees.jpg">
+<img src="./img/View-Roles.jpg">
 
 Below are the screenshots of when data has been added and then looking at them 
 
-<img src="./img/Add-Department-View-Roles">
-<img src="./img/Add-Employee-View-Employee">
-<img src="./img/Add-Role-View-Role">
+<img src="./img/Add-Department-View-Roles.jpg">
+<img src="./img/Add-Employee-View-Employee.jpg">
+<img src="./img/Add-Role-View-Role.jpg">
 
 And finally the screenshot of the updated employee
 
-<img src="./img/Update-Employee">
+<img src="./img/Update-Employee.jpg">
 
 ## A link to a video walk through of the demo
 
-Please see the link to my walkthrough - [Google Drive] (https://drive.google.com/file/d/1MTxmmRaCIHB8DmGuweLeVSacGq5O57v6/view)<br>
+Please see the link to my walkthrough - [Google Drive](https://drive.google.com/file/d/1MTxmmRaCIHB8DmGuweLeVSacGq5O57v6/view)<br>
 
 ## Questions
 If you have any questions about this projects, please contact me directly at matthewdsena@gmail.com. 
